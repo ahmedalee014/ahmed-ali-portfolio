@@ -105,14 +105,14 @@ export default function App() {
       <section className="hero section-wrap">
         <div className="hero-copy">
           <div className="eyebrow"><span className="live-dot" /> SOFTWARE DEVELOPER · ALWAYS LEARNING</div>
-          <h1>AHMED<br /><span>ALI.</span></h1>
+          <h1>AHMED<br /><span>ALI </span></h1>
           <p className="hero-role">I BUILD <span>IDEAS INTO DIGITAL EXPERIENCES.</span></p>
           <p className="hero-intro">Software developer focused on building applications, backend systems, and creative digital experiences. I work with a wide range of programming technologies, while currently focusing on <strong>C# / .NET</strong> and developing <strong>NEXORA</strong>.</p>
           <div className="hero-buttons"><a className="button button-primary" href="#projects">EXPLORE PROJECTS <span>↗</span></a><a className="button button-secondary" href="#cv">VIEW MY CV</a></div>
           <div className="hero-meta"><span><i>01</i> ENGINEERING</span><span><i>02</i> AI EXPLORATION</span><span><i>03</i> CONTINUOUS LEARNING</span></div>
         </div>
         <div className="hero-art" aria-label="Portrait of Ahmed Ali">
-          <div className="portrait-frame"><img src="/portrait.png" alt="Ahmed Ali portrait" onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement.classList.add('portrait-fallback') }} /><div className="portrait-fallback-text">ADD YOUR<br />PORTRAIT<br /><span>/public/portrait.png</span></div><div className="portrait-scan" /></div>
+          <div className="portrait-frame"><img src="./portrait.png" alt="Ahmed Ali portrait" onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement.classList.add('portrait-fallback') }} /><div className="portrait-fallback-text">ADD YOUR<br />PORTRAIT<br /><span>/public/portrait.png</span></div><div className="portrait-scan" /></div>
           <div className="orbit orbit-a" /><div className="orbit orbit-b" />
           <div className="floating-card card-status"><span className="mini-label">CURRENT FOCUS</span><strong>NEXORA</strong><span className="status-active">● ACTIVE DEVELOPMENT</span></div>
           <div className="floating-card card-stack"><span className="mini-label">TECH AREAS</span><strong>SOFTWARE · AI</strong><span>BACKEND / UI / DATA</span></div>
